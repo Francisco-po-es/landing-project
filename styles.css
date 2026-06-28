@@ -43,7 +43,7 @@ li {
     align-items: center;
 }
 
-.information-hero {
+.content-hero {
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -72,4 +72,42 @@ li {
     cursor: pointer;
     padding: 10px 24px;
     margin: 0;
+}
+
+/*Information Section*/
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title {
+    margin: 16px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.info-container {
+    display: flex;
+    gap: 8px;
+    flex-flow: row wrap;
+}
+
+.info-subcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info-img {
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.text {
+    max-width: 200px;
 }
