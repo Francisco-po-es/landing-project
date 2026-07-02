@@ -175,3 +175,13 @@ li {
     background-color: #FFFFFF;
     color: #3882F6;
 }
+
+/*Footer Section */
+
+footer {
+    padding: 48px;
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
