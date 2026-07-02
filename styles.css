@@ -134,7 +134,44 @@ li {
 }
 
 .quote-author {
-    font-size: 21px;
+    font-size: 24px;
     font-weight: 900;
     align-self: flex-end;
+}
+
+/*Call to Action Section*/
+
+.call-to-action-section {
+    margin: 64px 192px;
+    padding: 48px 96px;
+    border-radius: 12px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between
+}
+
+.cta-message {
+    color: #FFFFFF;
+}
+
+.cta-top {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cta-button {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 32px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    background-color: #3882F6;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #FFFFFF;
+    color: #3882F6;
 }
