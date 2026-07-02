@@ -117,3 +117,24 @@ li {
     max-width: 200px;
     text-align: center; /*new thing to learn*/
 }
+
+/*Quote Section*/
+
+.quote-section {
+    padding: 144px 288px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-size: 21px;
+    font-weight: 900;
+    align-self: flex-end;
+}
